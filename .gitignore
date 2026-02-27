@@ -18,3 +18,6 @@ libero.egg-info/
 .vscode/
 
 /benchmark_tasks
+/build
+/*.xml
+
