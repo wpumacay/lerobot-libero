@@ -1,5 +1,5 @@
-import os
 from collections import OrderedDict
+from pathlib import Path
 
 import numpy as np
 
@@ -7,19 +7,11 @@ from robosuite.models.grippers.gripper_model import GripperModel
 from robosuite.models.robots.manipulators.manipulator_model import ManipulatorModel
 from robosuite.utils.mjcf_utils import xml_path_completion
 
-EVAL_ASSETS_DIR: str | None = os.getenv("EVAL_ASSETS_DIR", None)
-if EVAL_ASSETS_DIR is None:
-    raise RuntimeError(
-        "Must provide 'EVAL_ASSETS_DIR', the folder where the assets are installed by the resources manager"
-    )
+LIBERO_ASSETS_DIR = Path(__file__).parent.parent.parent
+FRANKA_DROID_DIR = LIBERO_ASSETS_DIR / "assets" / "robots" / "franka_droid"
 
-if not os.path.isdir(EVAL_ASSETS_DIR):
-    raise RuntimeError(f"Given 'EVAL_ASSETS_DIR={EVAL_ASSETS_DIR}' is not a valid directory")
-
-FRANKA_DROID_DIR = os.path.join(EVAL_ASSETS_DIR, "robots", "franka_droid")
-FRANKA_DROID_ROBOT_XML = os.path.join(FRANKA_DROID_DIR, "model_no_gripper.xml")
-FRANKA_DROID_GRIPPER_XML = os.path.join(FRANKA_DROID_DIR, "robotiq_2f85_v4", "2f85.xml")
-
+FRANKA_DROID_ROBOT_XML = FRANKA_DROID_DIR / "model_no_gripper.xml"
+FRANKA_DROID_GRIPPER_XML = FRANKA_DROID_DIR / "robotiq_2f85_v4" / "2f85.xml"
 
 class OnTheGroundFrankaDroid(ManipulatorModel):
     """
@@ -29,7 +21,7 @@ class OnTheGroundFrankaDroid(ManipulatorModel):
     """
 
     def __init__(self, idn=0):
-        super().__init__(FRANKA_DROID_ROBOT_XML, idn=idn)
+        super().__init__(FRANKA_DROID_ROBOT_XML.resolve().as_posix(), idn=idn)
 
     @property
     def default_mount(self):
@@ -80,7 +72,7 @@ class OnTheGroundFrankaDroid(ManipulatorModel):
 
 class FrankaDroidGripper(GripperModel):
     def __init__(self, idn=0):
-        super().__init__(FRANKA_DROID_GRIPPER_XML, idn=idn)
+        super().__init__(FRANKA_DROID_GRIPPER_XML.resolve().as_posix(), idn=idn)
 
     def format_action(self, action):
         return action
