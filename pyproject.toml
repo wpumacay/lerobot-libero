@@ -38,6 +38,8 @@ dependencies = [
     "gymnasium >= 0.29.0",
     "mujoco>=3.0.0",
     "future>=0.18.2",
+
+    "termcolor",
 ]
 
 [project.urls]
