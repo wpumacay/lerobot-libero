@@ -148,7 +148,7 @@
                       <site name="attachment_site" pos="0 0 0.107"/>
                       <!-- TODO: Add camera mount and move wrist camera -->
                       <body name="wrist_cam_body" pos="0.05 0 0.107">
-                        <camera name="wrist_camera" fovy="90" xyaxes="0 1 0 1 0 0" />
+                        <camera name="wrist_camera" fovy="52" xyaxes="0 1 0 1 0 0" />
                       </body>
                       <body name="eef_link" pos="0 0 0.107" quat="0.7071068 0 0 0.7071068">
                         <inertial pos="0 0 0" mass="0.5" diaginertia="0.05 0.05 0.05" />
