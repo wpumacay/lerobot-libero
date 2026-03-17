@@ -79,8 +79,7 @@
 
   <worldbody>
     <body name="fr3_root">
-      <geom name="fr3_plat" class="visual" type="box" size="0.25 0.25 0.025" rgba="0.537 0.317 0.160 1"/>
-      <body name="fr3_link0" pos="0 0 0.025">
+      <body name="fr3_link0">
         <camera name="exo_camera" pos="0.1 0.57 0.66" quat="-0.3633 -0.1241 0.4263 0.8191" fovy="71.0" resolution="1280 720"/>
         <geom mesh="link0_0" material="black" class="visual"/>
         <geom mesh="link0_1" material="white" class="visual"/>
@@ -152,7 +151,6 @@
                         <camera name="wrist_camera" fovy="52" xyaxes="0 1 0 1 0 0" />
                       </body>
                       <body name="eef_link" pos="0 0 0.107" quat="0.7071068 0 0 0.7071068">
-                        <inertial pos="0 0 0" mass="0.5" diaginertia="0.05 0.05 0.05" />
                       </body>
                     </body>
                   </body>
