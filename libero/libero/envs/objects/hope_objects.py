@@ -226,6 +226,23 @@ class TomatoSauce(HopeBaseObject):
         super().__init__(name, obj_name)
         self.rotation_axis = "z"
 
+class CustomObject(MujocoXMLObject):
+    def __init__(self, name, obj_name, category_name):
+        super().__init__(
+            os.path.join(
+                str(absolute_path),
+                f"assets/stable_hope_objects/{obj_name}/{obj_name}.xml",
+            ),
+            name=name,
+            joints=[dict(type="free", damping="0.0005")],
+            obj_type="all",
+            duplicate_collision_geoms=False,
+        )
+        self.category_name = category_name
+        self.rotation = (np.pi / 2, np.pi / 2)
+        self.rotation_axis = "x"
+
+        self.object_properties = {"vis_site_names": {}}
 
 # class Tuna(HopeBaseObject):
 #     def __init__(self,

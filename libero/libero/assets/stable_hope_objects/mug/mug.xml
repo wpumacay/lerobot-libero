@@ -1,0 +1,124 @@
+<mujoco model="Mug_1">
+  <compiler angle="radian"/>
+
+  <default>
+    <default class="/"/>
+  </default>
+
+  <asset>
+    <material name="material_Mug_Decals_Off_Mat" class="/" rgba="1 1 1 0.5"/>
+    <material name="material_Porcelain_Off_White_Mat" class="/" rgba="0.852941 0.852941 0.852941 1"/>
+    <mesh name="Mug_1_mug_1_0" class="/" content_type="model/obj" file="assets/Mug_1_mug_1_0.obj"/>
+    <mesh name="Mug_1_mug_1_1" class="/" content_type="model/obj" file="assets/Mug_1_mug_1_1.obj"/>
+    <mesh name="Mug_1_mug_1_0_collision_7" content_type="model/obj" file="assets/Mug_1_mug_1_0_collision_7.obj"/>
+    <mesh name="Mug_1_mug_1_0_collision_24" content_type="model/obj" file="assets/Mug_1_mug_1_0_collision_24.obj"/>
+    <mesh name="Mug_1_mug_1_0_collision_0" content_type="model/obj" file="assets/Mug_1_mug_1_0_collision_0.obj"/>
+    <mesh name="Mug_1_mug_1_0_collision_8" content_type="model/obj" file="assets/Mug_1_mug_1_0_collision_8.obj"/>
+    <mesh name="Mug_1_mug_1_0_collision_21" content_type="model/obj" file="assets/Mug_1_mug_1_0_collision_21.obj"/>
+    <mesh name="Mug_1_mug_1_0_collision_1" content_type="model/obj" file="assets/Mug_1_mug_1_0_collision_1.obj"/>
+    <mesh name="Mug_1_mug_1_0_collision_5" content_type="model/obj" file="assets/Mug_1_mug_1_0_collision_5.obj"/>
+    <mesh name="Mug_1_mug_1_0_collision_3" content_type="model/obj" file="assets/Mug_1_mug_1_0_collision_3.obj"/>
+    <mesh name="Mug_1_mug_1_0_collision_15" content_type="model/obj" file="assets/Mug_1_mug_1_0_collision_15.obj"/>
+    <mesh name="Mug_1_mug_1_0_collision_17" content_type="model/obj" file="assets/Mug_1_mug_1_0_collision_17.obj"/>
+    <mesh name="Mug_1_mug_1_0_collision_14" content_type="model/obj" file="assets/Mug_1_mug_1_0_collision_14.obj"/>
+    <mesh name="Mug_1_mug_1_0_collision_4" content_type="model/obj" file="assets/Mug_1_mug_1_0_collision_4.obj"/>
+    <mesh name="Mug_1_mug_1_0_collision_13" content_type="model/obj" file="assets/Mug_1_mug_1_0_collision_13.obj"/>
+    <mesh name="Mug_1_mug_1_0_collision_2" content_type="model/obj" file="assets/Mug_1_mug_1_0_collision_2.obj"/>
+    <mesh name="Mug_1_mug_1_0_collision_16" content_type="model/obj" file="assets/Mug_1_mug_1_0_collision_16.obj"/>
+    <mesh name="Mug_1_mug_1_0_collision_11" content_type="model/obj" file="assets/Mug_1_mug_1_0_collision_11.obj"/>
+    <mesh name="Mug_1_mug_1_0_collision_19" content_type="model/obj" file="assets/Mug_1_mug_1_0_collision_19.obj"/>
+    <mesh name="Mug_1_mug_1_0_collision_6" content_type="model/obj" file="assets/Mug_1_mug_1_0_collision_6.obj"/>
+    <mesh name="Mug_1_mug_1_0_collision_22" content_type="model/obj" file="assets/Mug_1_mug_1_0_collision_22.obj"/>
+    <mesh name="Mug_1_mug_1_0_collision_10" content_type="model/obj" file="assets/Mug_1_mug_1_0_collision_10.obj"/>
+    <mesh name="Mug_1_mug_1_0_collision_12" content_type="model/obj" file="assets/Mug_1_mug_1_0_collision_12.obj"/>
+    <mesh name="Mug_1_mug_1_0_collision_9" content_type="model/obj" file="assets/Mug_1_mug_1_0_collision_9.obj"/>
+    <mesh name="Mug_1_mug_1_0_collision_23" content_type="model/obj" file="assets/Mug_1_mug_1_0_collision_23.obj"/>
+    <mesh name="Mug_1_mug_1_0_collision_18" content_type="model/obj" file="assets/Mug_1_mug_1_0_collision_18.obj"/>
+    <mesh name="Mug_1_mug_1_0_collision_20" content_type="model/obj" file="assets/Mug_1_mug_1_0_collision_20.obj"/>
+    <mesh name="Mug_1_mug_1_1_collision_18" content_type="model/obj" file="assets/Mug_1_mug_1_1_collision_18.obj"/>
+    <mesh name="Mug_1_mug_1_1_collision_16" content_type="model/obj" file="assets/Mug_1_mug_1_1_collision_16.obj"/>
+    <mesh name="Mug_1_mug_1_1_collision_6" content_type="model/obj" file="assets/Mug_1_mug_1_1_collision_6.obj"/>
+    <mesh name="Mug_1_mug_1_1_collision_19" content_type="model/obj" file="assets/Mug_1_mug_1_1_collision_19.obj"/>
+    <mesh name="Mug_1_mug_1_1_collision_14" content_type="model/obj" file="assets/Mug_1_mug_1_1_collision_14.obj"/>
+    <mesh name="Mug_1_mug_1_1_collision_13" content_type="model/obj" file="assets/Mug_1_mug_1_1_collision_13.obj"/>
+    <mesh name="Mug_1_mug_1_1_collision_0" content_type="model/obj" file="assets/Mug_1_mug_1_1_collision_0.obj"/>
+    <mesh name="Mug_1_mug_1_1_collision_24" content_type="model/obj" file="assets/Mug_1_mug_1_1_collision_24.obj"/>
+    <mesh name="Mug_1_mug_1_1_collision_17" content_type="model/obj" file="assets/Mug_1_mug_1_1_collision_17.obj"/>
+    <mesh name="Mug_1_mug_1_1_collision_15" content_type="model/obj" file="assets/Mug_1_mug_1_1_collision_15.obj"/>
+    <mesh name="Mug_1_mug_1_1_collision_5" content_type="model/obj" file="assets/Mug_1_mug_1_1_collision_5.obj"/>
+    <mesh name="Mug_1_mug_1_1_collision_23" content_type="model/obj" file="assets/Mug_1_mug_1_1_collision_23.obj"/>
+    <mesh name="Mug_1_mug_1_1_collision_4" content_type="model/obj" file="assets/Mug_1_mug_1_1_collision_4.obj"/>
+    <mesh name="Mug_1_mug_1_1_collision_11" content_type="model/obj" file="assets/Mug_1_mug_1_1_collision_11.obj"/>
+    <mesh name="Mug_1_mug_1_1_collision_3" content_type="model/obj" file="assets/Mug_1_mug_1_1_collision_3.obj"/>
+    <mesh name="Mug_1_mug_1_1_collision_10" content_type="model/obj" file="assets/Mug_1_mug_1_1_collision_10.obj"/>
+    <mesh name="Mug_1_mug_1_1_collision_8" content_type="model/obj" file="assets/Mug_1_mug_1_1_collision_8.obj"/>
+    <mesh name="Mug_1_mug_1_1_collision_7" content_type="model/obj" file="assets/Mug_1_mug_1_1_collision_7.obj"/>
+    <mesh name="Mug_1_mug_1_1_collision_22" content_type="model/obj" file="assets/Mug_1_mug_1_1_collision_22.obj"/>
+    <mesh name="Mug_1_mug_1_1_collision_21" content_type="model/obj" file="assets/Mug_1_mug_1_1_collision_21.obj"/>
+    <mesh name="Mug_1_mug_1_1_collision_12" content_type="model/obj" file="assets/Mug_1_mug_1_1_collision_12.obj"/>
+    <mesh name="Mug_1_mug_1_1_collision_1" content_type="model/obj" file="assets/Mug_1_mug_1_1_collision_1.obj"/>
+    <mesh name="Mug_1_mug_1_1_collision_2" content_type="model/obj" file="assets/Mug_1_mug_1_1_collision_2.obj"/>
+    <mesh name="Mug_1_mug_1_1_collision_20" content_type="model/obj" file="assets/Mug_1_mug_1_1_collision_20.obj"/>
+  </asset>
+
+  <worldbody>
+    <body>
+      <body name="object" euler="1.5707963267948966 0 0">
+        <geom name="Mug_1_mug_1_0"  type="mesh" contype="0" conaffinity="0" condim="3" group="1" priority="0" friction="1 0.005 0.0001" solmix="1" solref="0.02 1" solimp="0.9 0.95 0.001 0.5 2" fluidcoef="0.5 0.25 1.5 1 1" mass="1e-08" material="material_Mug_Decals_Off_Mat" rgba="0.5 0.5 0.5 1" mesh="Mug_1_mug_1_0"/>
+        <geom name="Mug_1_mug_1_1"  type="mesh" contype="0" conaffinity="0" condim="3" group="1" priority="0" friction="1 0.005 0.0001" solmix="1" solref="0.02 1" solimp="0.9 0.95 0.001 0.5 2" fluidcoef="0.5 0.25 1.5 1 1" mass="1e-08" material="material_Porcelain_Off_White_Mat" rgba="0.5 0.5 0.5 1" mesh="Mug_1_mug_1_1"/>
+        <geom name="Mug_1_mug_1_Mug_1_mug_1_0_MeshCollider_0"  type="mesh" contype="1" conaffinity="15" condim="3" group="0" priority="0" friction="0.9 0.9 0.001" solref="0.025 1" solimp="0.998 0.998 0.001 0.5 2" fluidcoef="0.5 0.25 1.5 1 1" density="82.043" rgba="0.314752 0.631569 0.313699 1" mesh="Mug_1_mug_1_0_collision_7"/>
+        <geom name="Mug_1_mug_1_Mug_1_mug_1_0_MeshCollider_1"  type="mesh" contype="1" conaffinity="15" condim="3" group="0" priority="0" friction="0.9 0.9 0.001" solref="0.025 1" solimp="0.998 0.998 0.001 0.5 2" fluidcoef="0.5 0.25 1.5 1 1" density="82.043" rgba="0.792223 0.521585 0.884115 1" mesh="Mug_1_mug_1_0_collision_24"/>
+        <geom name="Mug_1_mug_1_Mug_1_mug_1_0_MeshCollider_2"  type="mesh" contype="1" conaffinity="15" condim="3" group="0" priority="0" friction="0.9 0.9 0.001" solref="0.025 1" solimp="0.998 0.998 0.001 0.5 2" fluidcoef="0.5 0.25 1.5 1 1" density="82.043" rgba="0.618137 0.542883 0.236494 1" mesh="Mug_1_mug_1_0_collision_0"/>
+        <geom name="Mug_1_mug_1_Mug_1_mug_1_0_MeshCollider_3"  type="mesh" contype="1" conaffinity="15" condim="3" group="0" priority="0" friction="0.9 0.9 0.001" solref="0.025 1" solimp="0.998 0.998 0.001 0.5 2" fluidcoef="0.5 0.25 1.5 1 1" density="82.043" rgba="0.912897 0.150262 0.2145 1" mesh="Mug_1_mug_1_0_collision_8"/>
+        <geom name="Mug_1_mug_1_Mug_1_mug_1_0_MeshCollider_4"  type="mesh" contype="1" conaffinity="15" condim="3" group="0" priority="0" friction="0.9 0.9 0.001" solref="0.025 1" solimp="0.998 0.998 0.001 0.5 2" fluidcoef="0.5 0.25 1.5 1 1" density="82.043" rgba="0.0843858 0.533321 0.577633 1" mesh="Mug_1_mug_1_0_collision_21"/>
+        <geom name="Mug_1_mug_1_Mug_1_mug_1_0_MeshCollider_5"  type="mesh" contype="1" conaffinity="15" condim="3" group="0" priority="0" friction="0.9 0.9 0.001" solref="0.025 1" solimp="0.998 0.998 0.001 0.5 2" fluidcoef="0.5 0.25 1.5 1 1" density="82.043" rgba="0.61556 0.298328 0.807856 1" mesh="Mug_1_mug_1_0_collision_1"/>
+        <geom name="Mug_1_mug_1_Mug_1_mug_1_0_MeshCollider_6"  type="mesh" contype="1" conaffinity="15" condim="3" group="0" priority="0" friction="0.9 0.9 0.001" solref="0.025 1" solimp="0.998 0.998 0.001 0.5 2" fluidcoef="0.5 0.25 1.5 1 1" density="82.043" rgba="0.265389 0.521386 0.593691 1" mesh="Mug_1_mug_1_0_collision_5"/>
+        <geom name="Mug_1_mug_1_Mug_1_mug_1_0_MeshCollider_7"  type="mesh" contype="1" conaffinity="15" condim="3" group="0" priority="0" friction="0.9 0.9 0.001" solref="0.025 1" solimp="0.998 0.998 0.001 0.5 2" fluidcoef="0.5 0.25 1.5 1 1" density="82.043" rgba="0.0625298 0.468643 0.577924 1" mesh="Mug_1_mug_1_0_collision_3"/>
+        <geom name="Mug_1_mug_1_Mug_1_mug_1_0_MeshCollider_8"  type="mesh" contype="1" conaffinity="15" condim="3" group="0" priority="0" friction="0.9 0.9 0.001" solref="0.025 1" solimp="0.998 0.998 0.001 0.5 2" fluidcoef="0.5 0.25 1.5 1 1" density="82.043" rgba="0.264246 0.213746 0.00628141 1" mesh="Mug_1_mug_1_0_collision_15"/>
+        <geom name="Mug_1_mug_1_Mug_1_mug_1_0_MeshCollider_9"  type="mesh" contype="1" conaffinity="15" condim="3" group="0" priority="0" friction="0.9 0.9 0.001" solref="0.025 1" solimp="0.998 0.998 0.001 0.5 2" fluidcoef="0.5 0.25 1.5 1 1" density="82.043" rgba="0.299465 0.716395 0.898239 1" mesh="Mug_1_mug_1_0_collision_17"/>
+        <geom name="Mug_1_mug_1_Mug_1_mug_1_0_MeshCollider_10"  type="mesh" contype="1" conaffinity="15" condim="3" group="0" priority="0" friction="0.9 0.9 0.001" solref="0.025 1" solimp="0.998 0.998 0.001 0.5 2" fluidcoef="0.5 0.25 1.5 1 1" density="82.043" rgba="0.473796 0.675443 0.63062 1" mesh="Mug_1_mug_1_0_collision_14"/>
+        <geom name="Mug_1_mug_1_Mug_1_mug_1_0_MeshCollider_11"  type="mesh" contype="1" conaffinity="15" condim="3" group="0" priority="0" friction="0.9 0.9 0.001" solref="0.025 1" solimp="0.998 0.998 0.001 0.5 2" fluidcoef="0.5 0.25 1.5 1 1" density="82.043" rgba="0.860821 0.209112 0.432205 1" mesh="Mug_1_mug_1_0_collision_4"/>
+        <geom name="Mug_1_mug_1_Mug_1_mug_1_0_MeshCollider_12"  type="mesh" contype="1" conaffinity="15" condim="3" group="0" priority="0" friction="0.9 0.9 0.001" solref="0.025 1" solimp="0.998 0.998 0.001 0.5 2" fluidcoef="0.5 0.25 1.5 1 1" density="82.043" rgba="0.181438 0.255094 0.510089 1" mesh="Mug_1_mug_1_0_collision_13"/>
+        <geom name="Mug_1_mug_1_Mug_1_mug_1_0_MeshCollider_13"  type="mesh" contype="1" conaffinity="15" condim="3" group="0" priority="0" friction="0.9 0.9 0.001" solref="0.025 1" solimp="0.998 0.998 0.001 0.5 2" fluidcoef="0.5 0.25 1.5 1 1" density="82.043" rgba="0.584554 0.478245 0.920291 1" mesh="Mug_1_mug_1_0_collision_2"/>
+        <geom name="Mug_1_mug_1_Mug_1_mug_1_0_MeshCollider_14"  type="mesh" contype="1" conaffinity="15" condim="3" group="0" priority="0" friction="0.9 0.9 0.001" solref="0.025 1" solimp="0.998 0.998 0.001 0.5 2" fluidcoef="0.5 0.25 1.5 1 1" density="82.043" rgba="0.749221 0.712972 0.286971 1" mesh="Mug_1_mug_1_0_collision_16"/>
+        <geom name="Mug_1_mug_1_Mug_1_mug_1_0_MeshCollider_15"  type="mesh" contype="1" conaffinity="15" condim="3" group="0" priority="0" friction="0.9 0.9 0.001" solref="0.025 1" solimp="0.998 0.998 0.001 0.5 2" fluidcoef="0.5 0.25 1.5 1 1" density="82.043" rgba="0.388549 0.554813 0.566148 1" mesh="Mug_1_mug_1_0_collision_11"/>
+        <geom name="Mug_1_mug_1_Mug_1_mug_1_0_MeshCollider_16"  type="mesh" contype="1" conaffinity="15" condim="3" group="0" priority="0" friction="0.9 0.9 0.001" solref="0.025 1" solimp="0.998 0.998 0.001 0.5 2" fluidcoef="0.5 0.25 1.5 1 1" density="82.043" rgba="0.288026 0.161546 0.740704 1" mesh="Mug_1_mug_1_0_collision_19"/>
+        <geom name="Mug_1_mug_1_Mug_1_mug_1_0_MeshCollider_17"  type="mesh" contype="1" conaffinity="15" condim="3" group="0" priority="0" friction="0.9 0.9 0.001" solref="0.025 1" solimp="0.998 0.998 0.001 0.5 2" fluidcoef="0.5 0.25 1.5 1 1" density="82.043" rgba="0.2782 0.951128 0.939673 1" mesh="Mug_1_mug_1_0_collision_6"/>
+        <geom name="Mug_1_mug_1_Mug_1_mug_1_0_MeshCollider_18"  type="mesh" contype="1" conaffinity="15" condim="3" group="0" priority="0" friction="0.9 0.9 0.001" solref="0.025 1" solimp="0.998 0.998 0.001 0.5 2" fluidcoef="0.5 0.25 1.5 1 1" density="82.043" rgba="0.292076 0.264112 0.460095 1" mesh="Mug_1_mug_1_0_collision_22"/>
+        <geom name="Mug_1_mug_1_Mug_1_mug_1_0_MeshCollider_19"  type="mesh" contype="1" conaffinity="15" condim="3" group="0" priority="0" friction="0.9 0.9 0.001" solref="0.025 1" solimp="0.998 0.998 0.001 0.5 2" fluidcoef="0.5 0.25 1.5 1 1" density="82.043" rgba="0.644883 0.85132 0.262178 1" mesh="Mug_1_mug_1_0_collision_10"/>
+        <geom name="Mug_1_mug_1_Mug_1_mug_1_0_MeshCollider_20"  type="mesh" contype="1" conaffinity="15" condim="3" group="0" priority="0" friction="0.9 0.9 0.001" solref="0.025 1" solimp="0.998 0.998 0.001 0.5 2" fluidcoef="0.5 0.25 1.5 1 1" density="82.043" rgba="0.234954 0.581342 0.0288641 1" mesh="Mug_1_mug_1_0_collision_12"/>
+        <geom name="Mug_1_mug_1_Mug_1_mug_1_0_MeshCollider_21"  type="mesh" contype="1" conaffinity="15" condim="3" group="0" priority="0" friction="0.9 0.9 0.001" solref="0.025 1" solimp="0.998 0.998 0.001 0.5 2" fluidcoef="0.5 0.25 1.5 1 1" density="82.043" rgba="0.936275 0.658459 0.747712 1" mesh="Mug_1_mug_1_0_collision_9"/>
+        <geom name="Mug_1_mug_1_Mug_1_mug_1_0_MeshCollider_22"  type="mesh" contype="1" conaffinity="15" condim="3" group="0" priority="0" friction="0.9 0.9 0.001" solref="0.025 1" solimp="0.998 0.998 0.001 0.5 2" fluidcoef="0.5 0.25 1.5 1 1" density="82.043" rgba="0.554386 0.355584 0.416931 1" mesh="Mug_1_mug_1_0_collision_23"/>
+        <geom name="Mug_1_mug_1_Mug_1_mug_1_0_MeshCollider_23"  type="mesh" contype="1" conaffinity="15" condim="3" group="0" priority="0" friction="0.9 0.9 0.001" solref="0.025 1" solimp="0.998 0.998 0.001 0.5 2" fluidcoef="0.5 0.25 1.5 1 1" density="82.043" rgba="0.24481 0.856599 0.631398 1" mesh="Mug_1_mug_1_0_collision_18"/>
+        <geom name="Mug_1_mug_1_Mug_1_mug_1_0_MeshCollider_24"  type="mesh" contype="1" conaffinity="15" condim="3" group="0" priority="0" friction="0.9 0.9 0.001" solref="0.025 1" solimp="0.998 0.998 0.001 0.5 2" fluidcoef="0.5 0.25 1.5 1 1" density="82.043" rgba="0.0845906 0.164378 0.462952 1" mesh="Mug_1_mug_1_0_collision_20"/>
+        <geom name="Mug_1_mug_1_Mug_1_mug_1_1_MeshCollider_0"  type="mesh" contype="1" conaffinity="15" condim="3" group="0" priority="0" friction="0.9 0.9 0.001" solref="0.025 1" solimp="0.998 0.998 0.001 0.5 2" fluidcoef="0.5 0.25 1.5 1 1" density="82.043" rgba="0.267305 0.793847 0.200062 1" mesh="Mug_1_mug_1_1_collision_18"/>
+        <geom name="Mug_1_mug_1_Mug_1_mug_1_1_MeshCollider_1"  type="mesh" contype="1" conaffinity="15" condim="3" group="0" priority="0" friction="0.9 0.9 0.001" solref="0.025 1" solimp="0.998 0.998 0.001 0.5 2" fluidcoef="0.5 0.25 1.5 1 1" density="82.043" rgba="0.534009 0.912443 0.161919 1" mesh="Mug_1_mug_1_1_collision_16"/>
+        <geom name="Mug_1_mug_1_Mug_1_mug_1_1_MeshCollider_2"  type="mesh" contype="1" conaffinity="15" condim="3" group="0" priority="0" friction="0.9 0.9 0.001" solref="0.025 1" solimp="0.998 0.998 0.001 0.5 2" fluidcoef="0.5 0.25 1.5 1 1" density="82.043" rgba="0.461285 0.973762 0.307547 1" mesh="Mug_1_mug_1_1_collision_6"/>
+        <geom name="Mug_1_mug_1_Mug_1_mug_1_1_MeshCollider_3"  type="mesh" contype="1" conaffinity="15" condim="3" group="0" priority="0" friction="0.9 0.9 0.001" solref="0.025 1" solimp="0.998 0.998 0.001 0.5 2" fluidcoef="0.5 0.25 1.5 1 1" density="82.043" rgba="0.323263 0.256888 0.443676 1" mesh="Mug_1_mug_1_1_collision_19"/>
+        <geom name="Mug_1_mug_1_Mug_1_mug_1_1_MeshCollider_4"  type="mesh" contype="1" conaffinity="15" condim="3" group="0" priority="0" friction="0.9 0.9 0.001" solref="0.025 1" solimp="0.998 0.998 0.001 0.5 2" fluidcoef="0.5 0.25 1.5 1 1" density="82.043" rgba="0.22159 0.0030781 0.784861 1" mesh="Mug_1_mug_1_1_collision_14"/>
+        <geom name="Mug_1_mug_1_Mug_1_mug_1_1_MeshCollider_5"  type="mesh" contype="1" conaffinity="15" condim="3" group="0" priority="0" friction="0.9 0.9 0.001" solref="0.025 1" solimp="0.998 0.998 0.001 0.5 2" fluidcoef="0.5 0.25 1.5 1 1" density="82.043" rgba="0.0775958 0.892632 0.090535 1" mesh="Mug_1_mug_1_1_collision_13"/>
+        <geom name="Mug_1_mug_1_Mug_1_mug_1_1_MeshCollider_6"  type="mesh" contype="1" conaffinity="15" condim="3" group="0" priority="0" friction="0.9 0.9 0.001" solref="0.025 1" solimp="0.998 0.998 0.001 0.5 2" fluidcoef="0.5 0.25 1.5 1 1" density="82.043" rgba="0.726706 0.55288 0.325835 1" mesh="Mug_1_mug_1_1_collision_0"/>
+        <geom name="Mug_1_mug_1_Mug_1_mug_1_1_MeshCollider_8"  type="mesh" contype="1" conaffinity="15" condim="3" group="0" priority="0" friction="0.9 0.9 0.001" solref="0.025 1" solimp="0.998 0.998 0.001 0.5 2" fluidcoef="0.5 0.25 1.5 1 1" density="82.043" rgba="0.333932 0.676259 0.829422 1" mesh="Mug_1_mug_1_1_collision_24"/>
+        <geom name="Mug_1_mug_1_Mug_1_mug_1_1_MeshCollider_9"  type="mesh" contype="1" conaffinity="15" condim="3" group="0" priority="0" friction="0.9 0.9 0.001" solref="0.025 1" solimp="0.998 0.998 0.001 0.5 2" fluidcoef="0.5 0.25 1.5 1 1" density="82.043" rgba="0.0422138 0.741183 0.0177463 1" mesh="Mug_1_mug_1_1_collision_17"/>
+        <geom name="Mug_1_mug_1_Mug_1_mug_1_1_MeshCollider_10"  type="mesh" contype="1" conaffinity="15" condim="3" group="0" priority="0" friction="0.9 0.9 0.001" solref="0.025 1" solimp="0.998 0.998 0.001 0.5 2" fluidcoef="0.5 0.25 1.5 1 1" density="82.043" rgba="0.446361 0.804363 0.0218304 1" mesh="Mug_1_mug_1_1_collision_15"/>
+        <geom name="Mug_1_mug_1_Mug_1_mug_1_1_MeshCollider_11"  type="mesh" contype="1" conaffinity="15" condim="3" group="0" priority="0" friction="0.9 0.9 0.001" solref="0.025 1" solimp="0.998 0.998 0.001 0.5 2" fluidcoef="0.5 0.25 1.5 1 1" density="82.043" rgba="0.947212 0.770154 0.182212 1" mesh="Mug_1_mug_1_1_collision_5"/>
+        <geom name="Mug_1_mug_1_Mug_1_mug_1_1_MeshCollider_12"  type="mesh" contype="1" conaffinity="15" condim="3" group="0" priority="0" friction="0.9 0.9 0.001" solref="0.025 1" solimp="0.998 0.998 0.001 0.5 2" fluidcoef="0.5 0.25 1.5 1 1" density="82.043" rgba="0.360307 0.517931 0.774515 1" mesh="Mug_1_mug_1_1_collision_23"/>
+        <geom name="Mug_1_mug_1_Mug_1_mug_1_1_MeshCollider_13"  type="mesh" contype="1" conaffinity="15" condim="3" group="0" priority="0" friction="0.9 0.9 0.001" solref="0.025 1" solimp="0.998 0.998 0.001 0.5 2" fluidcoef="0.5 0.25 1.5 1 1" density="82.043" rgba="0.838282 0.0931859 0.544125 1" mesh="Mug_1_mug_1_1_collision_4"/>
+        <geom name="Mug_1_mug_1_Mug_1_mug_1_1_MeshCollider_14"  type="mesh" contype="1" conaffinity="15" condim="3" group="0" priority="0" friction="0.9 0.9 0.001" solref="0.025 1" solimp="0.998 0.998 0.001 0.5 2" fluidcoef="0.5 0.25 1.5 1 1" density="82.043" rgba="0.373722 0.288332 0.0266635 1" mesh="Mug_1_mug_1_1_collision_11"/>
+        <geom name="Mug_1_mug_1_Mug_1_mug_1_1_MeshCollider_15"  type="mesh" contype="1" conaffinity="15" condim="3" group="0" priority="0" friction="0.9 0.9 0.001" solref="0.025 1" solimp="0.998 0.998 0.001 0.5 2" fluidcoef="0.5 0.25 1.5 1 1" density="82.043" rgba="0.852383 0.284438 0.357145 1" mesh="Mug_1_mug_1_1_collision_3"/>
+        <geom name="Mug_1_mug_1_Mug_1_mug_1_1_MeshCollider_16"  type="mesh" contype="1" conaffinity="15" condim="3" group="0" priority="0" friction="0.9 0.9 0.001" solref="0.025 1" solimp="0.998 0.998 0.001 0.5 2" fluidcoef="0.5 0.25 1.5 1 1" density="82.043" rgba="0.306714 0.432593 0.384768 1" mesh="Mug_1_mug_1_1_collision_10"/>
+        <geom name="Mug_1_mug_1_Mug_1_mug_1_1_MeshCollider_17"  type="mesh" contype="1" conaffinity="15" condim="3" group="0" priority="0" friction="0.9 0.9 0.001" solref="0.025 1" solimp="0.998 0.998 0.001 0.5 2" fluidcoef="0.5 0.25 1.5 1 1" density="82.043" rgba="0.194818 0.164558 0.356416 1" mesh="Mug_1_mug_1_1_collision_8"/>
+        <geom name="Mug_1_mug_1_Mug_1_mug_1_1_MeshCollider_18"  type="mesh" contype="1" conaffinity="15" condim="3" group="0" priority="0" friction="0.9 0.9 0.001" solref="0.025 1" solimp="0.998 0.998 0.001 0.5 2" fluidcoef="0.5 0.25 1.5 1 1" density="82.043" rgba="0.0478001 0.220026 0.474948 1" mesh="Mug_1_mug_1_1_collision_7"/>
+        <geom name="Mug_1_mug_1_Mug_1_mug_1_1_MeshCollider_19"  type="mesh" contype="1" conaffinity="15" condim="3" group="0" priority="0" friction="0.9 0.9 0.001" solref="0.025 1" solimp="0.998 0.998 0.001 0.5 2" fluidcoef="0.5 0.25 1.5 1 1" density="82.043" rgba="0.0995078 0.643784 0.301683 1" mesh="Mug_1_mug_1_1_collision_22"/>
+        <geom name="Mug_1_mug_1_Mug_1_mug_1_1_MeshCollider_20"  type="mesh" contype="1" conaffinity="15" condim="3" group="0" priority="0" friction="0.9 0.9 0.001" solref="0.025 1" solimp="0.998 0.998 0.001 0.5 2" fluidcoef="0.5 0.25 1.5 1 1" density="82.043" rgba="0.131776 0.54029 0.317042 1" mesh="Mug_1_mug_1_1_collision_21"/>
+        <geom name="Mug_1_mug_1_Mug_1_mug_1_1_MeshCollider_21"  type="mesh" contype="1" conaffinity="15" condim="3" group="0" priority="0" friction="0.9 0.9 0.001" solref="0.025 1" solimp="0.998 0.998 0.001 0.5 2" fluidcoef="0.5 0.25 1.5 1 1" density="82.043" rgba="0.111787 0.669021 0.96867 1" mesh="Mug_1_mug_1_1_collision_12"/>
+        <geom name="Mug_1_mug_1_Mug_1_mug_1_1_MeshCollider_22"  type="mesh" contype="1" conaffinity="15" condim="3" group="0" priority="0" friction="0.9 0.9 0.001" solref="0.025 1" solimp="0.998 0.998 0.001 0.5 2" fluidcoef="0.5 0.25 1.5 1 1" density="82.043" rgba="0.139437 0.73331 0.861049 1" mesh="Mug_1_mug_1_1_collision_1"/>
+        <geom name="Mug_1_mug_1_Mug_1_mug_1_1_MeshCollider_23"  type="mesh" contype="1" conaffinity="15" condim="3" group="0" priority="0" friction="0.9 0.9 0.001" solref="0.025 1" solimp="0.998 0.998 0.001 0.5 2" fluidcoef="0.5 0.25 1.5 1 1" density="82.043" rgba="0.796536 0.15874 0.394369 1" mesh="Mug_1_mug_1_1_collision_2"/>
+        <geom name="Mug_1_mug_1_Mug_1_mug_1_1_MeshCollider_24"  type="mesh" contype="1" conaffinity="15" condim="3" group="0" priority="0" friction="0.9 0.9 0.001" solref="0.025 1" solimp="0.998 0.998 0.001 0.5 2" fluidcoef="0.5 0.25 1.5 1 1" density="82.043" rgba="0.012913 0.118465 0.425391 1" mesh="Mug_1_mug_1_1_collision_20"/>
+      </body>
+      <site rgba="1 0 0 1" size="0.005" pos="0 0 0" name="bottom_site" />
+      <site rgba="0 1 0 1" size="0.005" pos="0 0 0.10" name="top_site" />
+      <site rgba="0 0 1 1" size="0.005" pos="0.04 0.04 0.05" name="horizontal_radius_site" />
+    </body>
+  </worldbody>
+</mujoco>
